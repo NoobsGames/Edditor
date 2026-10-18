@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+}
+
+/* Centered so the black bars appear evenly on whichever side needs them. */
+#unity-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#unity-canvas {
+  display: block;
+  background: #231F20;
+}
+
+#unity-loading-bar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+#unity-logo {
+  width: 154px;
+  height: 130px;
+  margin: 0 auto;
+}
+
+#unity-progress-bar-empty {
+  margin: 12px auto 0;
+  width: 141px;
+  height: 18px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+#unity-progress-bar-full {
+  width: 0%;
+  height: 100%;
+  background: #13d0ff;
+}
+
+#unity-warning {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%);
+  background: white;
+  padding: 10px;
+  display: none;
+}
